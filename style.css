@@ -1,0 +1,59 @@
+ 
+   .container {
+    margin-bottom: 50px;
+  }
+
+.bg{
+  background-image: url(images/bg-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/********navbar*********/
+
+.white-bg {
+  background-color: white;
+}
+
+/********carousel*********/
+ 
+
+.carousel-indicators .active {
+  height: 7px;
+
+  width: 30px;
+  border-radius: 13px;
+  background-image: linear-gradient(to right, #ff8206, #ffd019);
+}
+/*********products********/
+
+.Smartphone{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.Laptop{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+/********Categories*********/
+.underline-block{
+  height: 7px;
+  width: 90px;
+ background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  margin: auto;
+  border-radius: 5px;
+}
+ 
+#perfume-cat, #shoe-cat{
+  border-radius: 15px 5px 30px 5px;
+}
+
+#bag-cat{
+  border-radius: 5px 15px 5px 30px;
+}
+   
+  /*********CARD*********/
+.card {
+  border: none;
+  box-shadow: 1px 1px 10px #80808080;
+  border-radius: 10px;
+}
